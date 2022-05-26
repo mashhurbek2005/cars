@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    width: 307px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 47px;
+    border-radius: 8px;
+}
+
+.sedans-item{
+    background-color: #E28625;
+}
+
+.suvs-item{
+    background-color: #006971;
+}
+
+.luxury-item{
+    background-color: #004140;
+}
+
+.icons{
+    margin-bottom: 35px;
+}
+
+.texts-box{
+    width: 212px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 83px;
+    font-family: "Lexend Deca", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.car-link{
+    display: inline-block;
+    padding-top: 11px;
+    padding-right: 32px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.sedans-link{
+    color: #E28625;
+}
+
+.suvs-link{
+    color: #006971;
+}
+
+.luxury-link{
+    color: #004140;
+}
+
+.car-link:hover{
+    display: inline-block;
+    border: 2px solid #FFFFFF;
+    color: #fff;
+    background-color: transparent ;
+}
+
+
+
