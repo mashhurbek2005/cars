@@ -18,23 +18,29 @@
 
 .item{
     width: 307px;
-    padding-top: 48px;
+    padding-top: 123px;
     padding-right: 48px;
     padding-bottom: 48px;
     padding-left: 47px;
     border-radius: 8px;
+    background-size: 64px 40px;
+    background-position: top 48px left 48px;
+    background-repeat: no-repeat;
 }
 
 .sedans-item{
     background-color: #E28625;
+    background-image: url("../images/sedana.svg");
 }
 
 .suvs-item{
     background-color: #006971;
+    background-image: url("../images/suvs.svg");
 }
 
 .luxury-item{
     background-color: #004140;
+    background-image: url("../images/luxury.svg");
 }
 
 .icons{
@@ -74,6 +80,7 @@ p {
     padding-left: 32px;
     background-color: #F2F2F2;
     border-radius: 25px;
+    border: 2px solid transparent;
     text-decoration: none;
 }
 
